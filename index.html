@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h3>An Array of Things to Practice</h3>
+<em>Don't get fancy!</em>
+
+<p id="demo"></p>
+
+
+
+<p>the join() method joins array elements into a string using any symbol you choose in the "" innerHTML function.</p>
+<p id="vegetables"></p>
+
+
+<p> the push method adds new elements to the
+<button onclick="myFunction1()">Does it work?</button> array - at the end. the above array of veggies has "yam" being pushed to it.</p>
+
+
+
+<p>the pop method takes out the last element from your array.</p>
+<p id="removeVeggie"></p>
+<button onclick="myFunction()">no more veggies!</button>
+
+
+
+<p>the shift method <em>removes</em> the first element of an array and "shifts" all other elements one place up.</p>
+<button onclick="myFunction2()">Let's make shift happen.</button>
+<p id="shifty"></p>
+
+<p>whereas the unshift() method adds a new element to an array at the beginning of the array and "unshifts" older elements. the shift() method returns the string that was shifted out. the unshift() method returns the NEW array length.</p>
+<button onclick="myFunction3()">Unshiftify.</button>
+<p id="travelCity"></p>
+
+
+<p><strong>Changing Elements</strong>: array elements (the items in the list) are accessed using their index number, which always started from 0, NOT 1! </p>
+<p>This makes the length property a great way to <em>append</em> a new element to an array.</p>
+<button onclick="myFunction4()">Append with length</button>
+<p id="appendMe"></p>
+
+<p><strong>Splicing Arrays</strong> can be used to add new items to an array using Parameters to define the position of where and how many and to define what to add.
+<br>
+<em>You use splice() to remove elements without leaving gaps in your array.</em></p>
+<button onclick="myFunction5()">Splice it</button>
+<p id="people"></p>
+
+<p><strong>Sort</strong> arrays alphabetically by using  the sort() method</p>
+
+<p>You can reverse it with the reverse()</p>
+
+<h3 id="sortMe"></h3>
+<button onclick="myFunction6()">Sort this random stuff!</button>
+
+<h4>Numeric Sort</h4>
+
+<p>The above sort() function sorts your values as <em>strings</em>, which is great for strings containing words. But if NUMBERS are sorted as strings, the order will be based on the INDEX of the numbers listed in thes string, not the actual number that each item actually is. Sort() would provide an incorrect result, then. BUT no fear, there is something called a <em>compare function.</em></p>
+<button onclick="ageFunction()">Sort family ages</button>
+<p id="familyAges"></p>
+
+
+<p><strong>Joining Arrays with Concat</strong> - can take any number of arguments</p>
+<button onclick="concatFunction()">Click me to join us!</button>
+<p id="fam">
+
+
+<p><strong>Slice</strong> an array to take a piece of it and put it in a new array - by indicating which index you'd like to slice</p>
+<p id="cake"></p>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
